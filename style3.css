@@ -1,0 +1,162 @@
+body {
+    font-family: 'Poppins';
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    margin: 0;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+.cta {
+    background-color: #ff52bf;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: auto;
+}
+.cta:hover {
+    background-color: #e044a6;
+}
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #f4f4f4;
+}
+.stat {
+    text-align: center;
+}
+.stat h3 {
+    font-size: 30px;
+    color: #120f11;
+}
+.stat p {
+    color: #666;
+}
+.features {
+    padding: 50px 0;
+    background-color: #fff;
+}
+.feature {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.feature img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.feature p {
+    color: #666;
+    font-size: 16px;
+}
+.cta-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+.footer {
+    background-color: #001f3f;
+    color: #fff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start
+}
+.footer-left, .footer-right {
+    width: 45%;
+}
+.footer h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+.footer p {
+    font-size: 16px;
+    color: #ccc;
+}
+.footer a {
+    color: #ff52bf;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.socials img {
+    height: 30px;
+    margin-right: 10px;
+}
+.footer form {
+    display: flex;
+    margin-top: 20px;
+}
+.footer input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    width: 70%;
+    font-size: 16px;
+}
+.footer button {
+    padding: 10px;
+    border: none;
+    background-color: #ff52bf;
+    color: #fff;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.footer button:hover {
+    background-color: #e044a6;
+}
+.disc{
+    margin: 10px 0;
+}
